@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Rocket_Electronics_Libraries")(type "KiCad")(uri "${KIPRJMOD}/../Rocket_Electronics_Libraries")(options "")(descr ""))
+)

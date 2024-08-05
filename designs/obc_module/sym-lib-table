@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "obcModule")(type "KiCad")(uri "${KIPRJMOD}/../Rocket_Electronics_Libraries/obcModule.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-EVB_Rev_K1")(type "KiCad")(uri "${KIPRJMOD}/../Rocket_Electronics_Libraries/ESP32-EVB_Rev_K1.kicad_sym")(options "")(descr ""))
+)
