@@ -1,0 +1,1139 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4f547a03-e188-41e7-9227-fa9ded3e9b13")
+	(paper "A")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 83.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79064975-589e-4969-81f4-1594bc0b8c50")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 83.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcdf712-72af-49ff-8e2a-69179413169f")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9f9bfc-4541-434b-baa4-b776780a9068")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 96.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2e10bf-97a3-45ee-b102-e47d655e4ab3")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 83.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3dc4ab8-81d5-499d-916d-0986e8e6de8e")
+	)
+	(wire
+		(pts
+			(xy 83.82 44.45) (xy 83.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f024c528-5201-4461-bad2-1fd35b336b14")
+	)
+	(sheet
+		(at 96.52 44.45)
+		(size 49.53 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "04d7acbd-cf74-4aa5-a9d3-6649b8b9438f")
+		(property "Sheetname" "RF Interface"
+			(at 96.52 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/RFInterface.kicad_sch"
+			(at 96.52 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "(TLM_PROCESSOR)RF_PATH" bidirectional
+			(at 96.52 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32de85c5-f9ad-4da6-aed1-0ac921c96ba9")
+		)
+		(pin "(CMD_PROCESSOR)RF_PATH" bidirectional
+			(at 96.52 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92bce964-69e2-4be1-bbeb-98ca1d1d372d")
+		)
+		(pin "(ANTENNA)ANT1" bidirectional
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d37c52e-a4ef-4469-a727-4088930ca29d")
+		)
+		(pin "(ANTENNA)ANT2" bidirectional
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "920a5401-a806-4d37-9968-82178ebc1dd4")
+		)
+		(instances
+			(project "tlmModule"
+				(path "/4f547a03-e188-41e7-9227-fa9ded3e9b13"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 59.69)
+		(size 31.75 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "2a82ec46-4bfd-4659-9980-25ce430236ec")
+		(property "Sheetname" "Telemetry Processor"
+			(at 40.64 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/CC1200.kicad_sch"
+			(at 40.64 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "(RADIO)GDO2" input
+			(at 40.64 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ea68d6a-f633-4117-9137-ce552d6b2c0f")
+		)
+		(pin "(RADIO)GDO0" input
+			(at 40.64 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "344fe062-20cd-45ca-be1c-ceeb15fdf2d6")
+		)
+		(pin "(RADIO)SCLK" input
+			(at 40.64 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0a24bfe-419c-4303-801c-e0112c83d5af")
+		)
+		(pin "(RADIO)~{CS}" input
+			(at 40.64 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88055387-c758-4b7a-8677-35abe069897f")
+		)
+		(pin "(RADIO)SDI" input
+			(at 40.64 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd61804d-94de-4810-9f59-c226221ed5eb")
+		)
+		(pin "(RADIO)SDO" input
+			(at 40.64 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "741089b9-0192-4418-9bed-4c05973d93f9")
+		)
+		(pin "3V3_IN" input
+			(at 40.64 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e42be15b-ce7e-48e2-9086-0efc642b89fd")
+		)
+		(pin "(RADIO)RF" bidirectional
+			(at 72.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e754eeaf-9a54-467c-8a38-9b687d49c609")
+		)
+		(instances
+			(project "tlmModule"
+				(path "/4f547a03-e188-41e7-9227-fa9ded3e9b13"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 250.19 19.05)
+		(size 12.7 142.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "9986f986-3da2-48ad-9914-d402baeb0b93")
+		(property "Sheetname" "Bus"
+			(at 250.19 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/Bus.kicad_sch"
+			(at 250.19 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "(ETH)RX3+" input
+			(at 250.19 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "118940f6-b1a7-448e-9575-1208c1f12c21")
+		)
+		(pin "(ETH)TX3-" input
+			(at 250.19 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddbc2422-cbdf-48f8-b9ba-403c6a194761")
+		)
+		(pin "(ETH)RX3-" input
+			(at 250.19 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b574cb91-ba41-427b-b5f4-3ef10a0c344d")
+		)
+		(pin "(ETH)RX4-" input
+			(at 250.19 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41044daa-ab63-4a44-bc94-6c0aa6ba16e2")
+		)
+		(pin "(ETH)TX4+" input
+			(at 250.19 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07835043-415c-4d8e-99fb-f110457d274f")
+		)
+		(pin "(ETH)TX4-" input
+			(at 250.19 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f91925dc-9cdf-4867-8d82-6545234e9df7")
+		)
+		(pin "(ETH)RX4+" input
+			(at 250.19 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed20b63d-a2f4-4491-9dc8-c4a5c2422fa7")
+		)
+		(pin "(ETH)TX2-" input
+			(at 250.19 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2743b404-23c3-4838-919a-1d60f80b2720")
+		)
+		(pin "(ETH)TX3+" input
+			(at 250.19 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb3f2936-296e-4f69-ba5d-d3318b496f4a")
+		)
+		(pin "(ETH)RX2+" input
+			(at 250.19 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18bd28d7-5abb-49cc-bd0c-da2c7d85b498")
+		)
+		(pin "(ETH)RX2-" input
+			(at 250.19 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76dbbe28-b7e6-4595-a440-8d275c303134")
+		)
+		(pin "(ETH)TX2+" input
+			(at 250.19 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45dd4fab-8b0d-4df8-909e-6f446c87ee5e")
+		)
+		(pin "(ETH)RX5+" input
+			(at 250.19 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98f9a3b7-c235-4288-93f0-a1593b27ace9")
+		)
+		(pin "(ETH)TX5+" input
+			(at 250.19 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bc93d90-1dac-467b-bd5e-a2ef0c0f046e")
+		)
+		(pin "(ETH)RX6+" input
+			(at 250.19 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b59e5d57-5ae7-4ab9-b385-f5720d4dcb3f")
+		)
+		(pin "(ETH)TX5-" input
+			(at 250.19 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e8a4292-1fa2-4cf4-a6f1-6a474e951dc6")
+		)
+		(pin "(ETH)TX6-" input
+			(at 250.19 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b3050ba-7db7-4f62-8c22-e2ab531f69d9")
+		)
+		(pin "(ETH)RX5-" input
+			(at 250.19 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff36852f-cb89-4f23-a46a-9c179311d273")
+		)
+		(pin "(ETH)RX6-" input
+			(at 250.19 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab10dbe1-1f7d-41c3-ae5c-8ff15b9ecd8d")
+		)
+		(pin "(ETH)TX6+" input
+			(at 250.19 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6640f581-1d6a-4bab-b50a-6f6102322a39")
+		)
+		(pin "(ETH)RX1+" input
+			(at 250.19 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8423b45-d115-491a-900a-dc5f1ca2e6e2")
+		)
+		(pin "(ETH)TX1+" input
+			(at 250.19 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0cb3fbcd-147a-4fbb-872c-99f1d2e53467")
+		)
+		(pin "(ETH)TX1-" input
+			(at 250.19 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b62de12-9e65-4dfc-abc7-b3d82346c498")
+		)
+		(pin "(ETH)RX1-" input
+			(at 250.19 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f56b87ed-129b-4734-a87a-60417df274e3")
+		)
+		(pin "(ETH)RX7+" input
+			(at 250.19 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8707e7f-072d-4135-8412-a28d60cdb9fc")
+		)
+		(pin "(ETH)TX7-" input
+			(at 250.19 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01100d37-5a66-4673-b5fb-502841d06704")
+		)
+		(pin "(ETH)TX7+" input
+			(at 250.19 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "617673af-88b9-4d6b-acf8-2d9c0cf83aeb")
+		)
+		(pin "(ETH)RX7-" input
+			(at 250.19 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a07c3780-961a-4f74-9668-3900fd8885ad")
+		)
+		(instances
+			(project "tlmModule"
+				(path "/4f547a03-e188-41e7-9227-fa9ded3e9b13"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 20.32)
+		(size 48.26 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "99abcdf3-709f-4a11-90ff-d1ffc3473009")
+		(property "Sheetname" "Ethernet Phy"
+			(at 191.77 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/LAN8710A.kicad_sch"
+			(at 191.77 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_IN" input
+			(at 240.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b96c0423-8189-410a-ac34-167508fcc50c")
+		)
+		(pin "(PHY)RMII_CLKIN" input
+			(at 191.77 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6e9040e-2f3d-4adf-a2dc-9671b7c83d12")
+		)
+		(pin "(PHY)RMII_TXD0" input
+			(at 191.77 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e51f940-7506-4e4e-805b-500e2076cc76")
+		)
+		(pin "(PHY)RMII_TXD1" input
+			(at 191.77 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1d8fef9e-7de8-4c6c-ae1d-6faa20cdf691")
+		)
+		(pin "(PHY)RMII_CRS_DV" input
+			(at 191.77 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68f00c1b-396e-4905-95d5-e153303b74cc")
+		)
+		(pin "(PHY)RMII_MDIO" input
+			(at 191.77 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7dfa5257-93a6-44ee-a56f-a90dd3909dce")
+		)
+		(pin "(PHY)RMII_TX_EN" input
+			(at 191.77 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab50b02c-2029-4d7e-a01e-92ced4ba5055")
+		)
+		(pin "(PHY)RMII_RXD0" input
+			(at 191.77 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f72625b-3d2a-4234-882c-2121dd1be0f7")
+		)
+		(pin "(PHY)RMII_RXD1" input
+			(at 191.77 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "538ce78e-814e-45a6-aa36-191831055760")
+		)
+		(pin "(PHY)RMII_MDC" input
+			(at 191.77 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a119aac9-a042-4ab6-bf8e-6901920e87ad")
+		)
+		(pin "(ETH)TX+" input
+			(at 240.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4b7aa8b-3ced-4ebf-a999-c33b84dd621c")
+		)
+		(pin "(ETH)TX-" input
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17df6da4-d2b9-4d1a-a16e-142c0948e187")
+		)
+		(pin "(ETH)RX+" input
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b41ae1b9-c8b4-4881-91dd-1ff54cb2fe50")
+		)
+		(pin "(ETH)RX-" input
+			(at 240.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57534cb1-68bf-46d1-8658-6ddec7a9a0aa")
+		)
+		(instances
+			(project "tlmModule"
+				(path "/4f547a03-e188-41e7-9227-fa9ded3e9b13"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 124.46)
+		(size 35.56 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "cd830d1a-5a6b-41cf-9bbe-4509be14abf3")
+		(property "Sheetname" "Power Regulation"
+			(at 203.2 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/MP21867.kicad_sch"
+			(at 203.2 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tlmModule"
+				(path "/4f547a03-e188-41e7-9227-fa9ded3e9b13"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 34.29)
+		(size 31.75 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "cf555c63-33da-4e05-aa4a-b8a85e8b674c")
+		(property "Sheetname" "Command Processor"
+			(at 40.64 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/CC1200.kicad_sch"
+			(at 40.64 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "(RADIO)GDO2" input
+			(at 40.64 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d2471eea-f7da-4b01-b192-bd0b135f9339")
+		)
+		(pin "(RADIO)GDO0" input
+			(at 40.64 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1ebd0ba-5e18-43b2-9226-e8e5831d943d")
+		)
+		(pin "(RADIO)SCLK" input
+			(at 40.64 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0654260a-7b52-45ba-9200-57a09f23b611")
+		)
+		(pin "(RADIO)~{CS}" input
+			(at 40.64 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2a01863-9a14-4325-9016-b4f8af8a314e")
+		)
+		(pin "(RADIO)SDI" input
+			(at 40.64 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b78fd32a-d824-4ee0-a50b-62ba7f0576a8")
+		)
+		(pin "(RADIO)SDO" input
+			(at 40.64 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57868e2b-2ad3-4e99-b445-b1bfe9953b09")
+		)
+		(pin "3V3_IN" input
+			(at 40.64 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f400cd9d-01a9-43bf-96f3-315a72cea60e")
+		)
+		(pin "(RADIO)RF" bidirectional
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9d619fa-6174-4590-af5d-43bdc3b2a782")
+		)
+		(instances
+			(project "tlmModule"
+				(path "/4f547a03-e188-41e7-9227-fa9ded3e9b13"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 92.71)
+		(size 39.37 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "df4f64fb-0bcc-42a4-83d2-9fe5e54f5c54")
+		(property "Sheetname" "Processor"
+			(at 113.03 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/ESP32.kicad_sch"
+			(at 113.03 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "(EMAC)RMII_TXD0" input
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5acf133c-f7a4-4697-9293-44dda4ece09a")
+		)
+		(pin "(EMAC)RMII_MDIO" input
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff305163-2319-4298-97a3-605a62317314")
+		)
+		(pin "(EMAC)RMII_TX_EN" input
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b9531bc-5aa6-49c8-b449-af3aa210e666")
+		)
+		(pin "(EMAC)RMII_TXD1" input
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95e3d7e8-838a-4fd9-a7cb-c06ec30e16da")
+		)
+		(pin "(EMAC)RMII_RXD0" input
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8458872c-6660-4e3c-9816-734a3d6b13b6")
+		)
+		(pin "(EMAC)RMII_CRS_DV" input
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03a26b38-427b-4d9c-b831-10afcf2a6549")
+		)
+		(pin "(EMAC)RMII_RXD1" input
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22121963-9eb1-483e-91a8-512cbb4d0f5e")
+		)
+		(pin "(EMAC)RMII_CLKIN" input
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "05b4c488-1b03-4748-b75f-3eea3c0ae775")
+		)
+		(pin "(EMAC)RMII_MDC" input
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "41b5c69c-c576-4920-851e-a6974daa3d91")
+		)
+		(pin "(RX_RADIO)~{CS}" output
+			(at 113.03 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be821b70-f987-4352-ae8b-a9fe855270d5")
+		)
+		(pin "(TX_RADIO)~{CS}" output
+			(at 113.03 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83d6d403-c643-402e-9cc0-58ae5db68f83")
+		)
+		(pin "(RX_RADIO)CLK" output
+			(at 113.03 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a027d2b-d71f-4342-8ff8-622a9520f21f")
+		)
+		(pin "(RX_RADIO)SDI" input
+			(at 113.03 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd54b4bc-2000-41aa-9284-77f088b92671")
+		)
+		(pin "(RX_RADIO)SDO" output
+			(at 113.03 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c201385-352c-419e-8b93-5751b9507ffb")
+		)
+		(pin "(TX_RADIO)SDO" output
+			(at 113.03 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7ded303-275c-42ab-ad91-9953fc1f857b")
+		)
+		(pin "(TX_RADIO)SDI" input
+			(at 113.03 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cad8566f-096d-46be-b4d7-75432df3041e")
+		)
+		(pin "(TX_RADIO)CLK" output
+			(at 113.03 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e9ed8bd-1eed-4a27-a58d-520c22c8520c")
+		)
+		(pin "3V3_IN" input
+			(at 113.03 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3d093e7-dd3a-4803-8fe7-67dd03bb724d")
+		)
+		(instances
+			(project "tlmModule"
+				(path "/4f547a03-e188-41e7-9227-fa9ded3e9b13"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
