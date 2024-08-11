@@ -1,5 +1,2081 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aba78378-19bb-4873-8abe-271c9667bb5b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 30.48 175.26) (xy 35.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c9507c-346c-4f27-8a55-1e233d9c1925")
+	)
+	(text "MAX-8Q"
+		(exclude_from_sim no)
+		(at 36.068 189.992 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2c71e325-d2d2-42d8-8fa7-1270ad7a2a50")
+	)
+	(text "BMI088"
+		(exclude_from_sim no)
+		(at 36.068 116.078 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "361ecace-c00a-4929-8135-f7ec13bec589")
+	)
+	(text "ESP-32 WROOM"
+		(exclude_from_sim no)
+		(at 98.044 96.012 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5be72699-4311-419f-8f95-900d33ef77dd")
+	)
+	(text "LAN8710"
+		(exclude_from_sim no)
+		(at 167.894 57.658 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8b8d431c-7800-4608-8a31-86b50354687c")
+	)
+	(text "MMC5983"
+		(exclude_from_sim no)
+		(at 36.322 149.098 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b4ff9b13-8543-4569-90a9-c8aec7a21674")
+	)
+	(text "W25Q64"
+		(exclude_from_sim no)
+		(at 166.624 141.478 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b7f50b3a-d658-4992-a6e1-c84b640793f2")
+	)
+	(text "MS5607"
+		(exclude_from_sim no)
+		(at 36.322 42.164 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "dd3926e5-254c-4977-9da9-9566c0a36526")
+	)
+	(text "ADXL375"
+		(exclude_from_sim no)
+		(at 36.322 78.232 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ebe18065-bf10-49e1-8022-a071bcf30a5c")
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 25.4 175.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10de00ad-dfb5-443b-b565-232c8c1dc54b")
+		(property "Reference" "J5"
+			(at 25.7174 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMA"
+			(at 25.7174 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2830216-15fc-410b-8a15-651ba7c5c871")
+		)
+		(pin "1"
+			(uuid "4b73965e-1a23-4954-ac85-794ccca82570")
+		)
+		(instances
+			(project ""
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1da1a05-0391-49ce-b9e3-5acd02ddf6b4")
+		(property "Reference" "#PWR066"
+			(at 25.4 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4152dae2-933b-4c7a-8ddf-91e86c8c125f")
+		)
+		(instances
+			(project ""
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 90.17)
+		(size 39.37 27.94)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "04591d4b-9ff0-446f-b519-27bd4de257e1")
+		(property "Sheetname" "Gyroscope & Low-G Accelerometer"
+			(at 35.814 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/BMI088.kicad_sch"
+			(at 35.56 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3 V"
+			(at 36.83 93.218 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Current" "5 mA"
+			(at 36.83 105.156 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_ACCEL" output
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72327162-8efc-45a6-b3a0-5fcad0d57606")
+		)
+		(pin "INT_GYRO" output
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8895dfae-0f16-42a9-84ab-0746756fd388")
+		)
+		(pin "SDI" input
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a58017dc-61b2-4655-bd20-546db308c1c7")
+		)
+		(pin "SDO" output
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca6ef100-61c9-475a-ab0f-56d48079abbe")
+		)
+		(pin "CS_ACCEL" input
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b5c6aa1-b3aa-47b9-ab70-70d83aebf432")
+		)
+		(pin "CS_GYRO" input
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f50aa78-161a-485e-8507-ce1664955167")
+		)
+		(pin "SCLK" input
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8c42ee0-8915-4964-b373-dac5a179e855")
+		)
+		(pin "3V3_IN" input
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4218a608-a113-4d14-89d4-c3345b8ea1f4")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 25.4)
+		(size 38.1 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "07a69da6-51c0-42a4-aae5-9cf0533c083c")
+		(property "Sheetname" "Ethernet Phy"
+			(at 167.64 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/LAN8710A.kicad_sch"
+			(at 167.64 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "TXP" input
+			(at 205.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2d66b14-97a3-40a1-946c-e8d83b39054b")
+		)
+		(pin "TXN" input
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "866c7227-f21d-4671-8cf2-47f35da16efe")
+		)
+		(pin "RXN" input
+			(at 205.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80f5c161-40be-4e0a-b05f-2e7ab2e7647d")
+		)
+		(pin "RXP" input
+			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06fc66d4-2f51-4cc2-ba13-8c4bfffc4d2c")
+		)
+		(pin "(PHY)RMII_MDC" input
+			(at 167.64 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b387c3ba-9599-4cd8-8c31-0a3b0cdfa272")
+		)
+		(pin "(PHY)RMII_MDIO" input
+			(at 167.64 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b14cdabc-3b9f-46dd-ade9-f370527ac3c1")
+		)
+		(pin "(PHY)RMII_CRS_DV" input
+			(at 167.64 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dab7e1ca-b924-42f4-9cd8-a5de15ae1c41")
+		)
+		(pin "(PHY)RMII_RXD0" input
+			(at 167.64 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "096d9da5-e8a2-4750-b40b-71fbb79e4dfe")
+		)
+		(pin "(PHY)RMII_RXD1" input
+			(at 167.64 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2995f4d-b0ff-496a-8942-55bfd3a584f4")
+		)
+		(pin "(PHY)RMII_TX_EN" input
+			(at 167.64 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c762600-bfd3-497e-a667-488f3c6a8922")
+		)
+		(pin "(PHY)RMII_TXD1" input
+			(at 167.64 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ab2f538-0e1a-479c-86c1-8f81d4357bba")
+		)
+		(pin "(PHY)RMII_TXD0" input
+			(at 167.64 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e39d489-d937-4a8a-8d34-d1c062052331")
+		)
+		(pin "(PHY)RMII_CLKIN" input
+			(at 167.64 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "809bfbf7-45fc-4a53-ad75-9cc55b596d17")
+		)
+		(pin "3V3_IN" input
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9ccdb46-2f2e-438a-bce4-a64520fecfe2")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 25.4)
+		(size 44.45 72.39)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "27941ae1-8382-4465-9fe2-184cff12003e")
+		(property "Sheetname" "Processor"
+			(at 97.79 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/ESP32.kicad_sch"
+			(at 97.79 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "(EMAC)RMII_CLKIN" input
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1008cde2-5247-47a0-9096-7b3ea6b853a0")
+		)
+		(pin "(EMAC)RMII_RXD0" input
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4ced4fd-a9c2-481a-804b-ec8f19b57aa1")
+		)
+		(pin "(EMAC)RMII_CRS_DV" input
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1edda07a-8369-48f6-b5e6-75b76046369e")
+		)
+		(pin "(EMAC)RMII_RXD1" input
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b35f33d6-c5dd-46e7-9054-573bb42e7841")
+		)
+		(pin "(EMAC)RMII_TX_EN" input
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc4e2a8d-5e1a-4223-bec9-f8563af6dd72")
+		)
+		(pin "(EMAC)RMII_MDIO" input
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ece8082-8ea4-4314-8425-aa5d31714d67")
+		)
+		(pin "(EMAC)RMII_MDC" input
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e29a0d8-fa42-4e33-90e3-fbbe972621e0")
+		)
+		(pin "(EMAC)RMII_TXD1" input
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2010ff80-154f-4095-9f3f-6d9b44a826da")
+		)
+		(pin "(EMAC)RMII_TXD0" input
+			(at 142.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "efa0e9ec-2624-4c6f-9fad-bf41dc92a7c9")
+		)
+		(pin "3V3_IN" input
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96938574-1b4a-489b-9803-1830123bdc9a")
+		)
+		(pin "(SPI1)MISO" input
+			(at 97.79 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43738958-fc6a-480e-bf33-144efbaf5f59")
+		)
+		(pin "(SPI2)SCLK" output
+			(at 97.79 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2523cfe2-2270-4a84-b037-a25ba70831fa")
+		)
+		(pin "(SPI1)MOSI" output
+			(at 97.79 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "569936da-f189-4bdb-8440-a1aff5a8b5ff")
+		)
+		(pin "(SPI1)SCLK" output
+			(at 97.79 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29ef8582-8a5a-4786-bd88-e2617f7c6202")
+		)
+		(pin "(SPI3)MISO" input
+			(at 97.79 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7a69a66-e8d8-46a5-b470-cd52da92ecde")
+		)
+		(pin "(SPI3)MOSI" output
+			(at 97.79 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c3cd473-17c3-4902-ab42-7c6fe4ca1702")
+		)
+		(pin "(SPI0)SCLK" output
+			(at 97.79 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed16964c-6aad-48e2-ac30-fbbeecb3cc31")
+		)
+		(pin "(SPI3)SCLK" output
+			(at 97.79 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "884d5c5a-9438-4bc6-bedd-afdeb19a8050")
+		)
+		(pin "(SPI0)MOSI" output
+			(at 97.79 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4c0af05-c001-4dd0-915b-b14971476c1a")
+		)
+		(pin "(SPI0)MISO" input
+			(at 97.79 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcfe7f73-9bee-498c-8da7-ab6e084ad57d")
+		)
+		(pin "(SPI2)MISO" input
+			(at 97.79 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "398bd912-e83d-4132-bdd9-131d943b356e")
+		)
+		(pin "(SPI2)MOSI" output
+			(at 97.79 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "036d8e85-a2f6-44dd-b3a9-9cca49c76c69")
+		)
+		(pin "(UART0)TX" output
+			(at 97.79 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4612ef29-f8e4-4cad-9d03-74b60e53ee9f")
+		)
+		(pin "(UART0)RX" input
+			(at 97.79 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a661c6ff-08fc-4301-9311-2cbe119a50cf")
+		)
+		(pin "(UART1)TX" output
+			(at 97.79 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d8f5fb2-93fb-40c8-869f-d8dde318aa16")
+		)
+		(pin "(UART1)RX" input
+			(at 97.79 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6fff1e60-d8a0-48a8-af6e-3b774b73de54")
+		)
+		(pin "(UART2)TX" output
+			(at 97.79 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ef9c18c-d211-4378-a532-2f4da2421ac8")
+		)
+		(pin "(UART2)RX" input
+			(at 97.79 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9984381-4808-4708-96ab-c3d5b0c35131")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 16.51)
+		(size 12.7 142.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "33fbdb38-e08b-42e9-9aa0-d9beccab4cf3")
+		(property "Sheetname" "Bus"
+			(at 248.92 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/Bus.kicad_sch"
+			(at 248.92 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "(ETH)RX3+" input
+			(at 248.92 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93e29fb2-1e26-4224-b5c7-9169c0325f4e")
+		)
+		(pin "(ETH)TX3-" input
+			(at 248.92 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d6ef7fe-dcb5-43f3-9a4a-c645ecea06b2")
+		)
+		(pin "(ETH)RX3-" input
+			(at 248.92 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df563406-8406-4c37-9233-b21e240411cf")
+		)
+		(pin "(ETH)RX4-" input
+			(at 248.92 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87ec7dde-fe5d-4020-a541-35074ab77db5")
+		)
+		(pin "(ETH)TX4+" input
+			(at 248.92 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bb71c36-cd59-4044-9b96-fbf52f984411")
+		)
+		(pin "(ETH)TX4-" input
+			(at 248.92 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2009845d-0b5e-42d9-9744-635edd88bd28")
+		)
+		(pin "(ETH)RX4+" input
+			(at 248.92 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b51a04d9-747d-4eed-b539-df1baa3cdf09")
+		)
+		(pin "(ETH)TX2-" input
+			(at 248.92 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "141ef110-75db-494c-8603-54bb9e6503a6")
+		)
+		(pin "(ETH)TX3+" input
+			(at 248.92 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59835a93-e348-40d9-9c7a-8f1ebc816404")
+		)
+		(pin "(ETH)RX2+" input
+			(at 248.92 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c564d8d5-6be8-4b46-b1a5-cd1b01f598c3")
+		)
+		(pin "(ETH)RX2-" input
+			(at 248.92 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc77816b-a6cd-4808-ad87-d33780b8db35")
+		)
+		(pin "(ETH)TX2+" input
+			(at 248.92 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d951f62-8c65-47b8-aac9-e2bd365166c3")
+		)
+		(pin "(ETH)RX5+" input
+			(at 248.92 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9109da42-77aa-4cce-8f94-c4580dc8bdfa")
+		)
+		(pin "(ETH)TX5+" input
+			(at 248.92 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6250372-3b41-41f6-977a-ace850fe5648")
+		)
+		(pin "(ETH)RX6+" input
+			(at 248.92 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2c5417f-3d76-486e-a340-9dc07323f4e0")
+		)
+		(pin "(ETH)TX5-" input
+			(at 248.92 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69d3bba3-06b8-4e62-bf43-4c9920268cf0")
+		)
+		(pin "(ETH)TX6-" input
+			(at 248.92 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a97a49a-147f-4d50-bcde-040d900c5018")
+		)
+		(pin "(ETH)RX5-" input
+			(at 248.92 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d33e0c3-d9a9-4b91-b4f6-50cb7c62bc18")
+		)
+		(pin "(ETH)RX6-" input
+			(at 248.92 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7fedb2f-d23f-42a8-b1e6-213262fe1b36")
+		)
+		(pin "(ETH)TX6+" input
+			(at 248.92 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6955a5b9-3c0f-410b-bed6-0881a19ae381")
+		)
+		(pin "(ETH)RX1+" input
+			(at 248.92 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3339e571-af44-4b19-bd88-948e03a975dd")
+		)
+		(pin "(ETH)TX1+" input
+			(at 248.92 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b17d9943-590a-4b80-8f90-db6b457a1c10")
+		)
+		(pin "(ETH)TX1-" input
+			(at 248.92 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2ac22a3-c8cb-4dd8-9833-f1992e61903c")
+		)
+		(pin "(ETH)RX1-" input
+			(at 248.92 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2bcecd53-95a4-4326-8b70-a816412c2b25")
+		)
+		(pin "(ETH)RX7+" input
+			(at 248.92 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7fc44a2-1507-43ee-887d-e2c0fbeadda0")
+		)
+		(pin "(ETH)TX7-" input
+			(at 248.92 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea745f83-41c6-46a6-bf2a-a7d507156993")
+		)
+		(pin "(ETH)TX7+" input
+			(at 248.92 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f4b5812-c87e-45bb-a72a-7ef9b8e5ae38")
+		)
+		(pin "(ETH)RX7-" input
+			(at 248.92 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fab51e18-5d2e-4c33-891f-e3bfea497d98")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 166.37)
+		(size 40.64 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3ef390b1-8d6d-469c-a99f-cf135e23c1fb")
+		(property "Sheetname" "Power Regulation"
+			(at 132.08 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/MP21867.kicad_sch"
+			(at 132.08 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 54.61)
+		(size 39.37 25.4)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "71073c5b-fecd-4cb0-b30f-78729fe0a54f")
+		(property "Sheetname" "High-G Accelerometer"
+			(at 35.56 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/ADXL375.kicad_sch"
+			(at 35.56 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3 V"
+			(at 36.576 57.404 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Peak Current" "145 µA"
+			(at 36.576 63.754 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00244caa-0240-4c06-83ac-976a8c129fc7")
+		)
+		(pin "SCLK" input
+			(at 74.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4011f2ec-0665-4e93-97d8-f5c15a5779d5")
+		)
+		(pin "~{CS}" input
+			(at 74.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60de3405-97c8-407f-92ed-d52349b59a81")
+		)
+		(pin "SDO" output
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "837a06b1-0638-4986-a370-f4af09abbd9b")
+		)
+		(pin "3V3_IN" input
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16d1f6b2-9a66-4ff0-abe7-475c186e522b")
+		)
+		(pin "INT2_ACCEL" output
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8f73e04-0797-4b53-a9e2-a45cdfcdf1f0")
+		)
+		(pin "INT1_ACCEL" output
+			(at 74.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "318507ef-79f8-478d-a99c-7aa1221f1939")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 128.27)
+		(size 39.37 22.86)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "884fafb0-770a-4904-96f6-411de1d8a4e6")
+		(property "Sheetname" "Magnetometer"
+			(at 35.56 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/MMC5983MA.kicad_sch"
+			(at 35.56 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3 V"
+			(at 36.322 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Current" "450  µA"
+			(at 36.322 140.462 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_IN" input
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0e18fae-8dbc-4afc-899c-ef1aa2986ee0")
+		)
+		(pin "SCLK" input
+			(at 74.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ada4ca6-4981-4360-8912-74ddd1209a66")
+		)
+		(pin "SDO" output
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "759f0056-28d2-4c5d-9671-7db9b06ad9b3")
+		)
+		(pin "SDI" input
+			(at 74.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4fb10d3-dc43-4a54-ba26-2e5c1de94b43")
+		)
+		(pin "~{CS}" input
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "94dae3c4-eb0a-4560-9a49-043500e1df72")
+		)
+		(pin "INT_MAG" output
+			(at 74.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3573cb19-0996-4975-8602-d3f9a1293793")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 26.67)
+		(size 39.37 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8c00f449-7ecd-4d77-ac5f-f2e07ff8ab16")
+		(property "Sheetname" "Barometer"
+			(at 35.56 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/MS5607.kicad_sch"
+			(at 35.56 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3 V"
+			(at 36.322 28.956 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Peak Current" "1.4 mA"
+			(at 36.322 31.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Current" "12.5 µA"
+			(at 36.322 34.544 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a8d2394-6d39-481b-9bfc-c6dfe2164525")
+		)
+		(pin "~{CS}" input
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbfe7d22-600c-44d0-9d32-7ce97ca0541f")
+		)
+		(pin "3V3_IN" input
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5922a5c2-8653-4b44-86e3-cb1c6c39813c")
+		)
+		(pin "SDI" input
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40d38a9d-e801-4abb-8b75-88af9b566dd1")
+		)
+		(pin "SDO" output
+			(at 74.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2828860-36a0-4560-8ae3-2a517c3d1650")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 161.29)
+		(size 39.37 30.48)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "a90f22df-2500-4936-b477-975de1fffce1")
+		(property "Sheetname" "GPS"
+			(at 35.56 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/MAX-8Q.kicad_sch"
+			(at 35.56 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3V"
+			(at 36.322 163.322 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LNA Current" "50 mA"
+			(at 36.322 167.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Current" "67 mA"
+			(at 36.068 172.212 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_IN" input
+			(at 74.93 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c02feaa-e5a8-4c89-b0a6-7880c9a73071")
+		)
+		(pin "SDA" bidirectional
+			(at 74.93 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28195f7c-1b34-481e-813b-4be3066f4bb2")
+		)
+		(pin "SCL" input
+			(at 74.93 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f11f0be-0e96-428a-9068-d12d3c70dd9d")
+		)
+		(pin "RX" input
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a2f2c80-ccc1-477d-8d5d-5bf1b6ea28a8")
+		)
+		(pin "TX" output
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a3e3e6a-fa6b-42bc-a58e-daccd1f969e4")
+		)
+		(pin "~{RESET}" input
+			(at 74.93 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1dcd2002-d1fd-425a-a1ad-03288f7a6258")
+		)
+		(pin "LNA_EN" input
+			(at 74.93 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd32807e-7968-4e2b-9c08-3966f21a46ec")
+		)
+		(pin "1PPS_OUT" output
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2f77dc6-cc26-4350-868a-dd7100078dcd")
+		)
+		(pin "RF_IN" input
+			(at 35.56 175.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f323187-4d4a-4d08-82f3-8010e01c6b49")
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 120.65)
+		(size 39.37 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "eaaa05bc-99d0-4e2a-b94a-02855b1e2556")
+		(property "Sheetname" "Flash Memory"
+			(at 166.37 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subSheets/W25Q64.kicad_sch"
+			(at 166.37 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sensorModule"
+				(path "/aba78378-19bb-4873-8abe-271c9667bb5b"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

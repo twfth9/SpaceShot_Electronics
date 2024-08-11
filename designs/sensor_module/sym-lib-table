@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-EVB_Rev_K1")(type "KiCad")(uri "/home/frisco/github/SpaceShot_Electronics/designs/Rocket_Electronics_Libraries/ESP32-EVB_Rev_K1.kicad_sym")(options "")(descr ""))
+  (lib (name "Module_obc")(type "KiCad")(uri "/home/frisco/github/SpaceShot_Electronics/designs/Rocket_Electronics_Libraries/Module_obc.kicad_sym")(options "")(descr ""))
+  (lib (name "Module_tlm")(type "KiCad")(uri "/home/frisco/github/SpaceShot_Electronics/designs/Rocket_Electronics_Libraries/Module_tlm.kicad_sym")(options "")(descr ""))
+  (lib (name "Module_data")(type "KiCad")(uri "/home/frisco/github/SpaceShot_Electronics/designs/Rocket_Electronics_Libraries/Module_data.kicad_sym")(options "")(descr ""))
+)
